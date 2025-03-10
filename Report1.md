@@ -1767,7 +1767,9 @@ Calculate the mean 'mpg' for each group of 'origin' and 'model_year' in the cars
 
 
 ```python
-cars >> group_by('origin', 'model_year') >> summarize(mpg_mean = X.mpg.mean())
+afterdot = 2
+
+cars >> group_by(X.origin, X.model_year) >> summarize(MeanMpg = X.mpg.mean().round(afterdot))
 ```
 
 
