@@ -11,3 +11,4 @@ COLLABORATOR: Kacper Neumann
 - [Report 3.](Report3.md)
 - [Report 4.](Report4.md)
 - [Report 5.](Report5.md)
+- [Report 6.](Report6.md)
